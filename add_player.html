@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TeamWatch</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="col-xs-12 team-name">
+                <a href="settings.html">
+                    <img src="https://cdn.pixabay.com/photo/2014/04/02/10/44/gear-wheel-304395_960_720.png" alt="settings" class="settings">
+                </a>
+                Team Name
+            </div>
+
+            <a class="col-xs-3 btn btn-primary active" id="f1" href="home.html">Home</a>
+            <a class="col-xs-3 btn btn-primary" id="f2" href="schedule.html">Schedule</a>
+            <a class="col-xs-3 btn btn-primary" id="f3" href="players.html">Players</a>
+            <a class="col-xs-3 btn btn-primary" id="f4" href="manage.html">Manage</a>
+        </nav>	
+    </header>
+
+    <h3 style="text-align:center;">Add Player</h3><br>
+
+    <form style="text-align:center;">
+        <div class="form-group" style="align-content:center;">
+            <label for="exampleInputFile"><b>Upload Image</b></label>
+            <br>
+            <input type="file" class="form-control-file" id="exampleInputFile">
+        </div>        
+        <input type="text" name="firstName" placeholder="First Name" class="form-control">
+        <input type="text" name="lastName" placeholder="Last Name" class="form-control">
+        <input type="text" name="email" placeholder="Email" class="form-control">
+        <input type="text" name="dateOfBirth" placeholder="Date of Birth" class="form-control">
+        <input type="text" name="jersey" placeholder="Jersey #" class="form-control">
+        <div class="form-group">
+            <select class="form-control">
+                <option value="" selected disabled>Position</option>                    
+                <option>Attacking Midfield</option>
+                <option>Center-back</option>
+                <option>Center Forward</option>
+                <option>Center Midfield</option>
+                <option>Defensive Midfield</option>
+                <option>Full-back</option>
+                <option>Goalkeeper</option>
+                <option>Second Striker</option>
+                <option>Sweeper</option>
+                <option>Wide Midfield</option>
+                <option>Wing-back</option>
+                <option>Winger</option>
+            </select>
+        </div>
+        <div class="captain-checkbox">
+            <label for="captain"><b>Captain</b></label>
+            <input type="checkbox" value="" id="captain">
+        </div>
+        <br>
+        <a href="manage.html" class="btn btn-primary" id="button1">Add</a>
+        
+    </form>
+
+</body>
+
+</html>

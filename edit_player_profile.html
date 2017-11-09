@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TeamWatch</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<header>
+    <nav class="navbar">
+
+        <div class="col-xs-12 team-name">
+            <a href="settings.html">
+                <img src="https://cdn.pixabay.com/photo/2014/04/02/10/44/gear-wheel-304395_960_720.png" alt="settings" class="settings">
+            </a>
+            My Teams &#9660;
+        </div>
+
+        <a class="col-xs-3 btn btn-primary active" id="f1" href="home.html">Home</a>
+        <a class="col-xs-3 btn btn-primary" id="f2" href="schedule.html">Schedule</a>
+        <a class="col-xs-3 btn btn-primary" id="f3" href="players.html">Players</a>
+        <a class="col-xs-3 btn btn-primary" id="f4" href="manage.html">Manage</a>
+    </nav>	
+</header>
+
+<body>
+    <!----------------------- WRITE STUFF HERE ------------------------>
+    <br>
+    <br>
+    <div class="player_pro">
+        <center><img src="img/cat.jpg" alt="Temporary Player's Picture" width="250" height="150"></center>
+        <center><h2>Player's Name #?</h2></center>
+        <center><h4>Position</h4></center>
+    </div>
+    <hr>
+    <div class="table-responsive">
+        <form action="player_profile.html">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Goals</th>
+                        <th>Fouls</th>
+                        <th>Yellow Cards</th>
+                        <th>Red Cards</th>
+                        <th>Shot on Goals</th>
+                        <th>Corner Kicks</th>
+                        <th>Goal Kicks</th>
+                        <th>Penality Kicks</th>
+                        <th>Throws-ins</th>
+                        <th>Games Played</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                        <td><input type="text" name="Goals"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <center><input class="btn btn-default" id="button1" type="submit" value="Submit"> &nbsp;<a class="btn btn-default" href="player_profile.html" id="button1">Back</a></center>
+        </form>
+    </div>    
+</body>
+
+</html>
